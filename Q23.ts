@@ -1,0 +1,11 @@
+let x = 5;
+let y = 10;
+let z = "10";
+let isMorning = true;
+let isAfternoon = false;
+console.log("Is x < y? I predict true.");
+console.log(x < y);
+console.log("Is isMorning true? I predict true.");
+console.log(isMorning);
+console.log("Is x > y? I predict false.");
+console.log(x > y);

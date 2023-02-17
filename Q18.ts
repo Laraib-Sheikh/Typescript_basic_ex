@@ -1,0 +1,12 @@
+let placesToVisit: string[] = ["Tokyo, Japan", "Barcelona, Spain", "Reykjavik, Iceland", "Cape Town, South Africa", "Rio de Janeiro, Brazil"];
+console.log("Original array: ", placesToVisit);
+console.log("Alphabetical order: ", [...placesToVisit].sort());
+console.log("Original array: ", placesToVisit);
+console.log("Reverse alphabetical order: ", [...placesToVisit].sort().reverse());
+console.log("Original array: ", placesToVisit);
+placesToVisit.reverse();
+console.log("Reversed order: ", placesToVisit);
+placesToVisit.sort();
+console.log("Alphabetical order: ", placesToVisit);
+placesToVisit.sort((a, b) => b.localeCompare(a));
+console.log("Reverse alphabetical order: ", placesToVisit);
